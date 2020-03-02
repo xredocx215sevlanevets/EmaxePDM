@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtualizarActivity"
+    android:background="@color/cinzento"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Aluno"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/corTextobotao"
+        android:padding="10dp">
+    </TextView>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@color/corTextobotao">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_school_black_24dp">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome"
+                android:textSize="20sp">
+            </TextView>
+            <EditText
+                android:id="@+id/edtNomeUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nome">
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero"
+                android:textSize="20sp">
+            </TextView>
+            <EditText
+                android:id="@+id/edtNumeroUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="numero">
+            </EditText>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computador"
+            android:textSize="20sp">
+        </TextView>
+            <EditText
+                android:id="@+id/edtPcUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PC">
+            </EditText>
+
+            <RadioGroup
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/RadioBPresenteUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Presente"
+                    android:textSize="15sp"
+                    android:layout_marginRight="18dp">
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/RadioBFaltouUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faltou"
+                    android:textSize="15sp"
+                    android:layout_marginRight="18dp">
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/RadioBDesistiuUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desistiu"
+                    android:textSize="15sp">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:background="@color/corBotaoSalvar"
+                    android:textColor="@color/corTextobotao"
+                    android:id="@+id/btnCancelarUp"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cancelar"
+                    android:layout_marginRight="10dp">
+                </Button>
+                <Button
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/corTextobotao"
+                    android:id="@+id/btnSalvarUp"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Salvar">
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

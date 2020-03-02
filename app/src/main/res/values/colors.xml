@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#64b5f6</color>
+    <color name="colorPrimaryDark">#2286c3</color>
+    <color name="colorAccent">#9be7ff</color>
+
+    <color name="corTextobotao">#fff</color>
+
+    <color name="cinzento">#86C09E9E</color>
+    <color name="cortexto">#fff</color>
+    <color name="corBotaoSalvar">#E91E63</color>
+</resources>

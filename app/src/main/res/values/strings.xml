@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EmaxePDM</string>
+    <string name="email_Tv">Email</string>
+    <string name="password_Tv">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="register_btn">Registar</string>
+    <string name="menu_def">Settings</string>
+    <string name="menu_sair">Log out</string>
+</resources>
